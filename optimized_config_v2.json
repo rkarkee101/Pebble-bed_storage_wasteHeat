@@ -1,0 +1,71 @@
+{
+  "scenario": {
+    "T_ground_C": 18.0,
+    "T_charge_in_C": 45.0,
+    "T_discharge_in_C": 15.0,
+    "T_supply_target_C": 35.0,
+    "Q_source_kW": 150.0,
+    "charge_days": 110,
+    "charge_hours_per_day": 8,
+    "discharge_days": 60,
+    "discharge_hours_per_day": 8,
+    "storage_days": 60,
+    "insulation_U_W_m2K": 0.08,
+    "deltaT_air_charge_candidates_K": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "D_candidates_m": [
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0
+    ],
+    "L_candidates_m": [
+      4.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "dp_candidates_m": [
+      0.03,
+      0.04,
+      0.05,
+      0.06
+    ],
+    "eps_candidates": [
+      0.36,
+      0.4,
+      0.44
+    ]
+  },
+  "best_design": {
+    "D_m": 8.0,
+    "L_m": 10.0,
+    "dp_m": 0.04,
+    "eps": 0.36,
+    "deltaT_air_charge_K": 30.0,
+    "m_dot_nom_kg_s": 4.975124378109452,
+    "Vdot_m3_s": 4.3261951113995245,
+    "superficial_velocity_m_s": 0.0860669170949034,
+    "interstitial_velocity_m_s": 0.239074769708065,
+    "UA_contact_W_perK": 1574073.8517433207,
+    "UA_loss_W_perK": 28.148670176164547,
+    "NTU": 314.81477034860114,
+    "deltaP_Pa": 64.58255755726098,
+    "Pfan_W": 465.6612413098348,
+    "Qcap_MWh": 5.018505768550479,
+    "Q_avail_MWh": 0.03666666666666667,
+    "Qstore_possible_MWh": 0.03655056485601926,
+    "Qloss_MWh": 0.003985417360262065,
+    "Q_after_storage_MWh": 0.032565147495757195,
+    "Q_recovered_MWh": 0.032462032788804725,
+    "Efan_MWh": 0.00017591646893927093,
+    "net_MWh": 0.03228611631986546
+  },
+  "score_net_MWh": 0.03228611631986546
+}
